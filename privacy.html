@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datenschutzerklärung — Kaja</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #A26452; --primary-dark: #894B34; --cream: #F9F6F1;
+            --sand: #D9C5B2; --text: #2C2C2C; --text-light: #5C5C5C;
+            --serif: 'Noto Serif', Georgia, serif; --sans: 'Manrope', system-ui, sans-serif;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: var(--sans); background: var(--cream); color: var(--text); -webkit-font-smoothing: antialiased; }
+        nav {
+            position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+            padding: 1.25rem 2rem; display: flex; justify-content: space-between; align-items: center;
+            background: rgba(249, 246, 241, 0.85); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px);
+            box-shadow: 0 1px 0 rgba(162, 100, 82, 0.1);
+        }
+        .wordmark {
+            font-family: var(--serif); font-size: 1.55rem; font-weight: 500; font-style: italic;
+            color: var(--text); letter-spacing: -0.01em; text-decoration: none;
+            display: inline-flex; align-items: center; gap: 0.4rem;
+        }
+        .wordmark-ring { width: 16px; height: 16px; border-radius: 50%; border: 1.8px solid var(--primary); flex-shrink: 0; margin-right: -0.15rem; position: relative; top: 1px; }
+        .nav-back { font-family: var(--sans); font-size: 0.85rem; color: var(--text-light); text-decoration: none; transition: color 0.2s ease; }
+        .nav-back:hover { color: var(--primary); }
+        .legal-page { max-width: 680px; margin: 0 auto; padding: 8rem 2rem 4rem; }
+        .legal-page h1 { font-family: var(--serif); font-size: 2rem; font-weight: 500; margin-bottom: 0.5rem; }
+        .legal-page .legal-date { font-family: var(--sans); font-size: 0.85rem; color: var(--text-light); margin-bottom: 2.5rem; }
+        .legal-page h2 { font-family: var(--serif); font-size: 1.25rem; font-weight: 500; margin-top: 2.5rem; margin-bottom: 0.75rem; }
+        .legal-page h3 { font-family: var(--sans); font-size: 0.95rem; font-weight: 600; margin-top: 1.75rem; margin-bottom: 0.5rem; }
+        .legal-page p, .legal-page li { font-family: var(--sans); font-size: 0.92rem; line-height: 1.7; color: var(--text-light); margin-bottom: 0.75rem; }
+        .legal-page ul { padding-left: 1.25rem; margin-bottom: 1rem; }
+        .legal-page a { color: var(--primary); text-decoration: none; }
+        .legal-page a:hover { text-decoration: underline; }
+        .placeholder { background: rgba(162, 100, 82, 0.1); border-left: 3px solid var(--primary); padding: 0.75rem 1rem; border-radius: 0 4px 4px 0; font-family: var(--sans); font-size: 0.85rem; color: var(--primary-dark); margin: 0.5rem 0 1rem; }
+        footer { padding: 3rem 2rem; text-align: center; border-top: 1px solid rgba(162, 100, 82, 0.08); }
+        .footer-links { display: flex; justify-content: center; gap: 1.5rem; flex-wrap: wrap; margin-bottom: 1.25rem; }
+        .footer-links a { font-family: var(--sans); font-size: 0.8rem; color: var(--text-light); text-decoration: none; transition: color 0.2s ease; }
+        .footer-links a:hover { color: var(--primary); }
+        .footer-meta { font-family: var(--sans); font-size: 0.75rem; color: var(--sand); }
+        .footer-meta a { color: var(--sand); text-decoration: none; }
+        .footer-meta a:hover { color: var(--primary); }
+        @media (max-width: 640px) { nav { padding: 1rem 1.25rem; } .wordmark { font-size: 1.35rem; } .legal-page { padding: 7rem 1.5rem 3rem; } .legal-page h1 { font-size: 1.6rem; } }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="/" class="wordmark"><span class="wordmark-ring"></span>Kaja</a>
+        <a href="/" class="nav-back">← Zurück</a>
+    </nav>
+
+    <main class="legal-page">
+        <h1>Datenschutzerklärung</h1>
+        <p class="legal-date">Stand: April 2026</p>
+
+        <h2>1. Verantwortlicher</h2>
+        <p>Selected Ventures LLC<br>
+        1209 Mountain Road Pl NE<br>
+        Albuquerque, NM 87110, USA</p>
+        <p>E-Mail: <a href="mailto:hello@heykaja.com">hello@heykaja.com</a></p>
+
+        <h2>2. Welche Daten wir erheben</h2>
+
+        <h3>2.1 Nutzungsdaten der App</h3>
+        <p>Wenn du Kaja nutzt, verarbeiten wir folgende Daten:</p>
+        <ul>
+            <li><strong>Quiz-Antworten:</strong> Deine Antworten im Onboarding-Quiz (10 Multiple-Choice-Fragen und 2 Freitext-Antworten). Diese werden verwendet, um dein Kommunikationsprofil zu erstellen und Kaja auf dein Gespräch vorzubereiten.</li>
+            <li><strong>Chat-Verläufe:</strong> Die Nachrichten, die du an Kaja schreibst, und Kajas Antworten. Diese werden gespeichert, damit Kaja in Folgegesprächen auf vorherige Themen Bezug nehmen kann.</li>
+            <li><strong>Erkannte Muster:</strong> Das von Kaja erkannte Kommunikationsmuster und vorgeschlagene Interventionen, damit Kaja deinen Fortschritt über mehrere Gespräche hinweg begleiten kann.</li>
+        </ul>
+
+        <h3>2.2 Technische Daten</h3>
+        <ul>
+            <li>Gerätetyp und Betriebssystemversion</li>
+            <li>App-Version</li>
+            <li>Anonymisierte Nutzungsstatistiken (z.B. Sitzungsdauer)</li>
+        </ul>
+
+        <h3>2.3 Zahlungsdaten</h3>
+        <p>Kaja nutzt ausschließlich Apple In-App-Abonnements. Wir haben keinen Zugriff auf deine Zahlungsdaten (Kreditkartennummer, Bankverbindung). Diese werden ausschließlich von Apple verarbeitet. Wir erhalten von Apple lediglich die Information, ob ein aktives Abonnement besteht.</p>
+
+        <h2>3. Warum wir deine Daten verarbeiten</h2>
+        <p>Wir verarbeiten deine Daten auf folgenden Rechtsgrundlagen:</p>
+        <ul>
+            <li><strong>Vertragserfüllung (Art. 6 Abs. 1 lit. b DSGVO):</strong> Quiz-Auswertung, Chat-Verläufe und Mustererkennung sind notwendig, um dir den Coaching-Dienst bereitzustellen.</li>
+            <li><strong>Berechtigtes Interesse (Art. 6 Abs. 1 lit. f DSGVO):</strong> Technische Daten und anonymisierte Nutzungsstatistiken dienen der Verbesserung der App und der Fehlerbehebung.</li>
+        </ul>
+
+        <h3>Besondere Kategorien personenbezogener Daten</h3>
+        <p>Deine Gespräche mit Kaja können sensible Informationen enthalten — etwa über emotionale Belastungen, Beziehungskonflikte oder persönliche Krisen. Solche Daten können unter die besonderen Kategorien personenbezogener Daten gemäß Art. 9 DSGVO fallen (z.B. Gesundheitsdaten).</p>
+        <p>Die Verarbeitung dieser Daten erfolgt ausschließlich auf Grundlage deiner ausdrücklichen Einwilligung (Art. 9 Abs. 2 lit. a DSGVO), die du beim Onboarding erteilst. Du kannst diese Einwilligung jederzeit mit Wirkung für die Zukunft widerrufen, indem du dein Konto löschst oder uns unter <a href="mailto:hello@heykaja.com">hello@heykaja.com</a> kontaktierst.</p>
+
+        <h3>Automatisierte Entscheidungsfindung und Profiling</h3>
+        <p>Kaja analysiert deine Quiz-Antworten und Chat-Nachrichten, um Kommunikationsmuster zu erkennen und dir darauf abgestimmte Coaching-Impulse zu geben. Dabei kommt eine automatisierte Mustererkennung zum Einsatz (Profiling im Sinne von Art. 22 DSGVO).</p>
+        <p>Diese automatisierte Verarbeitung dient ausschließlich dazu, die Coaching-Inhalte für dich zu personalisieren. Sie hat keine rechtlichen Auswirkungen auf dich und erzeugt keine vergleichbar erheblichen Beeinträchtigungen. Du kannst jederzeit Auskunft über die zugrunde liegende Logik der Mustererkennung verlangen, indem du uns unter <a href="mailto:hello@heykaja.com">hello@heykaja.com</a> kontaktierst.</p>
+
+        <h2>4. KI-Verarbeitung durch Anthropic</h2>
+        <p>Kaja nutzt ein KI-Sprachmodell der Firma Anthropic PBC (San Francisco, USA), um deine Nachrichten zu verarbeiten und Antworten zu generieren. Das bedeutet:</p>
+        <ul>
+            <li>Deine Chat-Nachrichten werden an die Server von Anthropic in den USA übermittelt.</li>
+            <li>Anthropic verarbeitet deine Daten ausschließlich in unserem Auftrag (als Auftragsverarbeiter) und nutzt sie nicht für eigene Zwecke wie Modelltraining.</li>
+            <li>Es besteht ein Auftragsverarbeitungsvertrag (Data Processing Addendum) mit Anthropic, der die EU-Standardvertragsklauseln (Standard Contractual Clauses) enthält, um ein angemessenes Datenschutzniveau bei der Übermittlung in die USA sicherzustellen.</li>
+            <li>Anthropic speichert deine Daten nicht dauerhaft — die Verarbeitung erfolgt zur Echtzeit-Generierung der Antworten.</li>
+        </ul>
+
+        <h2>5. Datenspeicherung</h2>
+
+        <h3>5.1 Wo deine Daten gespeichert werden</h3>
+        <p>Deine Chat-Verläufe und Profildaten werden auf Servern in <span class="placeholder">✏️ SERVER-STANDORT einfügen</span> gespeichert. Die KI-Verarbeitung erfolgt auf Servern von Anthropic in den USA (siehe Abschnitt 4).</p>
+
+        <h3>5.2 Wie lange wir deine Daten speichern</h3>
+        <ul>
+            <li><strong>Chat-Verläufe und Profildaten:</strong> Solange dein Konto aktiv ist. Nach Löschung deines Kontos werden alle personenbezogenen Daten innerhalb von 30 Tagen gelöscht.</li>
+            <li><strong>Anonymisierte Nutzungsdaten:</strong> Können auch nach Kontolöschung aufbewahrt werden, da sie keinen Rückschluss auf deine Person zulassen.</li>
+        </ul>
+
+        <h2>6. Datenübermittlung in Drittländer</h2>
+        <p>Deine Daten werden in die USA übermittelt (Anthropic-Server für die KI-Verarbeitung). Die Übermittlung ist durch EU-Standardvertragsklauseln (SCCs) abgesichert, die Bestandteil unseres Auftragsverarbeitungsvertrags mit Anthropic sind.</p>
+
+        <h2>7. Deine Rechte</h2>
+        <p>Du hast jederzeit das Recht auf:</p>
+        <ul>
+            <li><strong>Auskunft</strong> über deine gespeicherten Daten</li>
+            <li><strong>Berichtigung</strong> unrichtiger Daten</li>
+            <li><strong>Löschung</strong> deiner Daten ("Recht auf Vergessenwerden")</li>
+            <li><strong>Einschränkung</strong> der Verarbeitung</li>
+            <li><strong>Datenübertragbarkeit</strong> — du kannst deine Daten in einem gängigen Format erhalten</li>
+            <li><strong>Widerspruch</strong> gegen die Verarbeitung</li>
+        </ul>
+        <p>Zur Ausübung deiner Rechte schreibe an: <a href="mailto:hello@heykaja.com">hello@heykaja.com</a></p>
+        <p>Du hast außerdem das Recht, dich bei einer Datenschutzaufsichtsbehörde zu beschweren.</p>
+
+        <h2>8. Datensicherheit</h2>
+        <p>Wir schützen deine Daten durch verschlüsselte Datenübertragung (TLS), Zugriffsbeschränkungen auf personenbezogene Daten und die Trennung von personenbezogenen und anonymisierten Daten in getrennten Datenbanken.</p>
+
+        <h2>9. Minderjährige</h2>
+        <p>Kaja richtet sich an Personen ab 18 Jahren. Wir erheben wissentlich keine Daten von Minderjährigen.</p>
+
+        <h2>10. Änderungen dieser Datenschutzerklärung</h2>
+        <p>Wir können diese Datenschutzerklärung von Zeit zu Zeit aktualisieren. Über wesentliche Änderungen informieren wir dich innerhalb der App. Die aktuelle Version findest du immer unter heykaja.com/privacy.</p>
+
+        <h2>11. Kontakt</h2>
+        <p>Bei Fragen zum Datenschutz erreichst du uns unter: <a href="mailto:hello@heykaja.com">hello@heykaja.com</a></p>
+    </main>
+
+    <footer>
+        <div class="footer-links">
+            <a href="/privacy.html">Datenschutz</a>
+            <a href="/terms.html">Nutzungsbedingungen</a>
+            <a href="/imprint.html">Impressum</a>
+        </div>
+        <p class="footer-meta">© 2026 · <a href="mailto:hello@heykaja.com">hello@heykaja.com</a></p>
+    </footer>
+</body>
+</html>
