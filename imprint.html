@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Impressum — Kaja</title>
+    <link rel="icon" type="image/svg+xml" href="kaja-icon.svg">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <meta name="theme-color" content="#F9F6F1">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet">
@@ -26,7 +31,6 @@
             color: var(--text); letter-spacing: -0.01em; text-decoration: none;
             display: inline-flex; align-items: center; gap: 0.4rem;
         }
-        .wordmark-ring { width: 16px; height: 16px; border-radius: 50%; border: 1.8px solid var(--primary); flex-shrink: 0; margin-right: -0.15rem; position: relative; top: 1px; }
         .nav-back { font-family: var(--sans); font-size: 0.85rem; color: var(--text-light); text-decoration: none; transition: color 0.2s ease; }
         .nav-back:hover { color: var(--primary); }
         .legal-page { max-width: 680px; margin: 0 auto; padding: 8rem 2rem 4rem; }
@@ -36,20 +40,24 @@
         .legal-page p, .legal-page li { font-family: var(--sans); font-size: 0.92rem; line-height: 1.7; color: var(--text-light); margin-bottom: 0.75rem; }
         .legal-page a { color: var(--primary); text-decoration: none; }
         .legal-page a:hover { text-decoration: underline; }
-        .placeholder { background: rgba(162, 100, 82, 0.1); border-left: 3px solid var(--primary); padding: 0.75rem 1rem; border-radius: 0 4px 4px 0; font-family: var(--sans); font-size: 0.85rem; color: var(--primary-dark); margin: 0.5rem 0 1rem; }
-        footer { padding: 3rem 2rem; text-align: center; border-top: 1px solid rgba(162, 100, 82, 0.08); }
-        .footer-links { display: flex; justify-content: center; gap: 1.5rem; flex-wrap: wrap; margin-bottom: 1.25rem; }
+        footer { padding: 3.5rem 2rem 2.75rem; text-align: center; background: var(--cream); border-top: 1px solid rgba(162, 100, 82, 0.09); }
+        .footer-links { display: flex; justify-content: center; gap: 1.75rem; flex-wrap: wrap; margin-bottom: 1.25rem; }
         .footer-links a { font-family: var(--sans); font-size: 0.8rem; color: var(--text-light); text-decoration: none; transition: color 0.2s ease; }
         .footer-links a:hover { color: var(--primary); }
-        .footer-meta { font-family: var(--sans); font-size: 0.75rem; color: var(--sand); }
-        .footer-meta a { color: var(--sand); text-decoration: none; }
+        .footer-meta { font-family: var(--sans); font-size: 0.75rem; color: #8A7E72; letter-spacing: 0.02em; }
+        .footer-meta a { color: #8A7E72; text-decoration: none; transition: color 0.2s ease; }
         .footer-meta a:hover { color: var(--primary); }
         @media (max-width: 640px) { nav { padding: 1rem 1.25rem; } .wordmark { font-size: 1.35rem; } .legal-page { padding: 7rem 1.5rem 3rem; } .legal-page h1 { font-size: 1.6rem; } }
+
+        .wordmark-icon { width: 22px; height: 22px; flex-shrink: 0; position: relative; top: 0.5px; }
+        .footer-mark { width: 32px; height: 32px; display: block; margin: 0 auto 1.4rem; opacity: 0.55; }
+        .footer-meta .footer-sep { display: inline-block; margin: 0 0.5rem; color: var(--sand); }
+        .footer-meta a { border-bottom: 1px solid rgba(138, 126, 114, 0.25); }
     </style>
 </head>
 <body>
     <nav>
-        <a href="/" class="wordmark"><span class="wordmark-ring"></span>Kaja</a>
+        <a href="/" class="wordmark" aria-label="Kaja Startseite"><svg class="wordmark-icon" viewBox="0 0 28 28" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><circle cx="14" cy="14" r="13.25" fill="none" stroke="#A26452" stroke-width="1.5"></circle><circle cx="14" cy="14" r="9" fill="#A26452" fill-opacity="0.15"></circle></svg>Kaja</a>
         <a href="/" class="nav-back">← Zurück</a>
     </nav>
 
@@ -81,12 +89,13 @@
     </main>
 
     <footer>
+        <svg class="footer-mark" viewBox="0 0 28 28" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><circle cx="14" cy="14" r="13.25" fill="none" stroke="#A26452" stroke-width="1.5"></circle><circle cx="14" cy="14" r="9" fill="#A26452" fill-opacity="0.15"></circle></svg>
         <div class="footer-links">
             <a href="/privacy.html">Datenschutz</a>
             <a href="/terms.html">Nutzungsbedingungen</a>
             <a href="/imprint.html">Impressum</a>
         </div>
-        <p class="footer-meta">© 2026 · <a href="mailto:hello@heykaja.com">hello@heykaja.com</a></p>
+        <p class="footer-meta">© 2026 Kaja<span class="footer-sep">·</span><a href="mailto:hello@heykaja.com">hello@heykaja.com</a></p>
     </footer>
 </body>
 </html>
