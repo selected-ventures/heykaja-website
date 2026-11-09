@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Datenschutzerklärung — Kaja</title>
+    <title>Privacy Policy — Kaja</title>
     <link rel="icon" type="image/svg+xml" href="kaja-icon.svg">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16.png">
@@ -42,6 +42,9 @@
         .legal-page ul { padding-left: 1.25rem; margin-bottom: 1rem; }
         .legal-page a { color: var(--primary); text-decoration: none; }
         .legal-page a:hover { text-decoration: underline; }
+        .legal-page .notice { background: rgba(162, 100, 82, 0.06); padding: 1.25rem 1.5rem; border-radius: 8px; margin: 1rem 0 1.5rem; }
+        .legal-page .notice p { margin-bottom: 0.5rem; }
+        .legal-page .notice p:last-child { margin-bottom: 0; }
         footer { padding: 3.5rem 2rem 2.75rem; text-align: center; background: var(--cream); border-top: 1px solid rgba(162, 100, 82, 0.09); }
         .footer-links { display: flex; justify-content: center; gap: 1.75rem; flex-wrap: wrap; margin-bottom: 1.25rem; }
         .footer-links a { font-family: var(--sans); font-size: 0.8rem; color: var(--text-light); text-decoration: none; transition: color 0.2s ease; }
@@ -49,7 +52,7 @@
         .footer-meta { font-family: var(--sans); font-size: 0.75rem; color: #8A7E72; letter-spacing: 0.02em; }
         .footer-meta a { color: #8A7E72; text-decoration: none; transition: color 0.2s ease; }
         .footer-meta a:hover { color: var(--primary); }
-        @media (max-width: 640px) { nav { padding: 1rem 1.25rem; } .wordmark { font-size: 1.35rem; } .wordmark-ring { width: 14px; height: 14px; } .legal-page { padding: 7rem 1.5rem 3rem; } .legal-page h1 { font-size: 1.6rem; } }
+        @media (max-width: 640px) { nav { padding: 1rem 1.25rem; } .wordmark { font-size: 1.35rem; } .legal-page { padding: 7rem 1.5rem 3rem; } .legal-page h1 { font-size: 1.6rem; } }
 
         .wordmark-icon { width: 22px; height: 22px; flex-shrink: 0; position: relative; top: 0.5px; }
         .footer-mark { width: 32px; height: 32px; display: block; margin: 0 auto 1.4rem; opacity: 0.55; }
@@ -59,131 +62,134 @@
 </head>
 <body>
     <nav>
-        <a href="/" class="wordmark" aria-label="Kaja Startseite"><svg class="wordmark-icon" viewBox="0 0 28 28" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><circle cx="14" cy="14" r="13.25" fill="none" stroke="#A26452" stroke-width="1.5"></circle><circle cx="14" cy="14" r="9" fill="#A26452" fill-opacity="0.15"></circle></svg>Kaja</a>
-        <a href="/" class="nav-back">← Zurück</a>
+        <a href="/" class="wordmark" aria-label="Kaja home"><svg class="wordmark-icon" viewBox="0 0 28 28" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><circle cx="14" cy="14" r="13.25" fill="none" stroke="#A26452" stroke-width="1.5"></circle><circle cx="14" cy="14" r="9" fill="#A26452" fill-opacity="0.15"></circle></svg>Kaja</a>
+        <a href="/" class="nav-back">← Back</a>
     </nav>
 
     <main class="legal-page">
-        <h1>Datenschutzerklärung</h1>
-        <p class="legal-date">Stand: Juni 2026</p>
+        <h1>Privacy Policy</h1>
+        <p class="legal-date">Last updated: November 9, 2026</p>
 
-        <h2>1. Verantwortlicher</h2>
+        <p>This Privacy Policy explains how Selected Ventures LLC ("we", "us") collects, uses and protects your information when you use the Kaja app and the website heykaja.com. Kaja is an AI coaching app for relationship dynamics. Because conversations about relationships are personal, we try to collect as little as possible and to be plain about what happens to it.</p>
+        <p>If you live in Washington, Nevada or another state with a consumer health data law, please also read our <a href="/consumer-health-data.html">Consumer Health Data Privacy Policy</a>.</p>
+
+        <h2>1. Who we are</h2>
         <p>Selected Ventures LLC<br>
         1209 Mountain Road Pl NE, Ste R<br>
-        Albuquerque, NM 87110, USA</p>
-        <p>E-Mail: <a href="/cdn-cgi/l/email-protection#432b262f2f2c032b263a282229226d202c2e"><span class="__cf_email__" data-cfemail="aac2cfc6c6c5eac2cfd3c1cbc0cb84c9c5c7">[email&#160;protected]</span></a></p>
+        Albuquerque, NM 87110, USA<br>
+        Email: <a href="mailto:hello@heykaja.com">hello@heykaja.com</a></p>
 
-        <h2>2. Welche Daten wir erheben</h2>
-
-        <h3>2.1 Nutzungsdaten der App</h3>
-        <p>Wenn du Kaja nutzt, verarbeiten wir folgende Daten:</p>
+        <h2>2. Information we collect</h2>
+        <h3>2.1 Information you give us</h3>
         <ul>
-            <li><strong>Vorname:</strong> Dein Vorname, den du beim Onboarding angibst. Er wird verwendet, damit Kaja dich persönlich ansprechen kann.</li>
-            <li><strong>Quiz-Antworten:</strong> Deine Antworten im Onboarding-Quiz (10 Multiple-Choice-Fragen und 2 Freitext-Antworten). Diese werden verwendet, um dein Kommunikationsprofil zu erstellen und Kaja auf dein Gespräch vorzubereiten.</li>
-            <li><strong>Chat-Verläufe:</strong> Die Nachrichten, die du an Kaja schreibst, und Kajas Antworten. Diese werden gespeichert, damit Kaja in Folgegesprächen auf vorherige Themen Bezug nehmen kann.</li>
-            <li><strong>Erkannte Muster:</strong> Das von Kaja erkannte Kommunikationsmuster und vorgeschlagene Interventionen, damit Kaja deinen Fortschritt über mehrere Gespräche hinweg begleiten kann.</li>
-            <li><strong>Sprachaufnahmen (optional):</strong> Wenn du die Spracheingabe nutzt, wird eine kurze Audioaufnahme verarbeitet, um sie in Text umzuwandeln (siehe Abschnitt 4). Die Audioaufnahme wird nach der Umwandlung gelöscht und nicht dauerhaft gespeichert. Du kannst jederzeit stattdessen die Tastatur verwenden.</li>
+            <li><strong>First name:</strong> the name you enter during onboarding, so Kaja can address you personally.</li>
+            <li><strong>Quiz answers:</strong> your answers to the onboarding quiz (multiple-choice questions and two short free-text answers) and the pronoun you choose for your partner. We use them to create your communication profile and prepare your first conversation.</li>
+            <li><strong>Conversations:</strong> the messages you send to Kaja and Kaja's replies, so Kaja can refer back to earlier topics and follow up on your progress.</li>
+            <li><strong>Patterns and next steps:</strong> the communication pattern Kaja identifies and the steps it suggests, so it can support you across conversations and in check-ins.</li>
+            <li><strong>Voice input (optional):</strong> if you use voice input, your recording is turned into text (see section 4). You can always type instead.</li>
+            <li><strong>Age confirmation:</strong> your confirmation that you are 18 or older, and when you gave it.</li>
+        </ul>
+        <p>Your conversations may include information about other people, such as your partner. Please share only what you need for your coaching. You do not need to give us anyone's full name.</p>
+
+        <h3>2.2 Information collected automatically</h3>
+        <ul>
+            <li>A random app user ID, created when you first open the app (we use anonymous sign-in, so you don't need an email address or password)</li>
+            <li>Device type, operating system version, app version, language and time zone</li>
+            <li>Crash reports and technical logs, so we can find and fix errors</li>
+            <li>A push notification token, if you allow notifications</li>
+            <li>Basic usage events (for example, that the AI notice was shown)</li>
+        </ul>
+        <p>We do not use advertising identifiers, we do not track you across other companies' apps or websites, and we do not use third-party advertising or attribution tools in the app.</p>
+
+        <h3>2.3 Sign in with Apple or Google (optional)</h3>
+        <p>If you choose to back up or restore your account with Apple or Google, we receive an account identifier from that provider and, depending on your settings, an email address. We use it only to link your account and let you restore it.</p>
+
+        <h3>2.4 Payments</h3>
+        <p>Subscriptions are sold only through Apple's App Store. Apple processes your payment. We never see your card or bank details. We receive information about your subscription status (for example, active, in trial or expired) through our subscription service provider, RevenueCat.</p>
+
+        <h2>3. How we use your information</h2>
+        <ul>
+            <li>To provide the coaching: analyzing your quiz, running your conversations, suggesting next steps and remembering context</li>
+            <li>To send check-ins and reminders, if you have allowed notifications (you can turn them off at any time in your iPhone settings)</li>
+            <li>To keep you and others safe: automated systems look for signs of acute crisis, violence or that the user is a minor, so Kaja can show crisis resources or end a conversation</li>
+            <li>To manage your subscription and restore purchases</li>
+            <li>To keep the app working, secure and reliable, and to fix errors</li>
+            <li>To improve the quality and safety of Kaja's replies (see section 6)</li>
+            <li>To comply with the law and enforce our <a href="/terms.html">Terms of Use</a></li>
+        </ul>
+        <p>Kaja analyzes your quiz answers and messages automatically to identify communication patterns and tailor its coaching. This personalization is the service itself. It is not used to make decisions about you that have legal or similarly significant effects.</p>
+        <p><strong>We do not sell your personal information. We do not share it for targeted advertising. We do not use your conversations to advertise to you.</strong></p>
+
+        <h2>4. AI processing</h2>
+        <h3>4.1 Conversations – Anthropic</h3>
+        <p>Kaja's replies are generated by an AI language model from Anthropic PBC (San Francisco, USA). To create a reply, your messages, your first name, your quiz results and earlier context from your conversation are sent to Anthropic through its commercial API. Under its commercial terms, Anthropic processes this data on our behalf and does not use it to train its models. Anthropic may retain API data for a limited period under its own policies, for example to detect abuse.</p>
+        <h3>4.2 Voice input – OpenAI</h3>
+        <p>If you use voice input, your recording is sent through our servers to OpenAI (San Francisco, USA) to be transcribed. Under its API terms, OpenAI processes the audio on our behalf and does not use it to train its models. We do not keep the recording or the transcript on our servers. The text appears in your input field and becomes part of your conversation only when you send it. Until a recording has been transcribed successfully, it stays on your device so it isn't lost. It is removed once it's transcribed, when you discard it, or when you delete your account.</p>
+        <p>Kaja is an AI, not a person. The app reminds you of this regularly.</p>
+
+        <h2>5. Who we share information with</h2>
+        <p>We share information only with service providers that help us run Kaja, and only as needed for that purpose:</p>
+        <ul>
+            <li><strong>Google (Firebase / Google Cloud):</strong> hosting, database, sign-in, crash reports, push notifications</li>
+            <li><strong>Anthropic:</strong> generating Kaja's replies</li>
+            <li><strong>OpenAI:</strong> voice transcription, only if you use voice input</li>
+            <li><strong>RevenueCat:</strong> subscription status</li>
+            <li><strong>Apple:</strong> App Store purchases, push notification delivery and, if you choose it, Sign in with Apple</li>
+        </ul>
+        <p>We may also disclose information if the law requires it, to protect someone's safety in an emergency, or as part of a merger, acquisition or sale of assets. If that happens, this policy will continue to apply to your information.</p>
+
+        <h2>6. Improving quality and safety</h2>
+        <p>To improve Kaja and to check that its safety systems work reliably, a small team may review excerpts of conversations, including excerpts where crisis or violence detection was triggered. We remove direct identifiers such as your name before review where we can. We do not use real conversations for marketing, and we do not share them with third parties for their own purposes.</p>
+        <p>If you don't want your conversations used this way, email <a href="mailto:hello@heykaja.com">hello@heykaja.com</a>. Conversations will then be used only to provide your coaching.</p>
+
+        <h2>7. Where your data is stored</h2>
+        <p>Your data is stored on Google Cloud (Firebase) servers. Some of these are located in the European Union, and AI processing takes place in the United States. We protect your data in transit with encryption, wherever it is processed.</p>
+
+        <h2>8. How long we keep your data</h2>
+        <ul>
+            <li><strong>Profile, quiz results and conversations:</strong> for as long as your account exists. You can delete a single conversation or your whole account in the app.</li>
+            <li><strong>After you delete your account:</strong> we delete your account, conversations, quiz results and subscription and notification data from our live systems right away. Remaining copies in backups and technical logs are removed within 30 days.</li>
+            <li><strong>De-identified or aggregated data</strong> that can no longer be linked to you may be kept longer.</li>
         </ul>
 
-        <h3>2.2 Technische Daten</h3>
+        <h2>9. Your choices and rights</h2>
         <ul>
-            <li>Gerätetyp und Betriebssystemversion</li>
-            <li>App-Version</li>
-            <li>Anonymisierte Nutzungsstatistiken (z.B. Sitzungsdauer)</li>
+            <li><strong>Delete:</strong> delete your account in the app under Settings. This permanently deletes your account, conversations and quiz results.</li>
+            <li><strong>Notifications:</strong> turn check-ins off at any time in your iPhone settings.</li>
+            <li><strong>Voice input:</strong> optional. You can always type instead.</li>
+            <li><strong>Access, correction, copy:</strong> email us to get a copy of your data or to correct it.</li>
+            <li><strong>Withdraw consent:</strong> you can withdraw your consent at any time by deleting your account or emailing us.</li>
         </ul>
+        <p>Depending on where you live, you may have additional rights under state law, such as the right to know, access, correct or delete your personal information, to get a portable copy, and to opt out of sale, targeted advertising or profiling. We honor these requests for all users, whether or not a state law applies. To make a request, email <a href="mailto:hello@heykaja.com">hello@heykaja.com</a>. We may need to verify that the account is yours. We answer within 45 days, and we won't treat you differently for using your rights. If we decline your request, you can appeal by replying to our answer. If your appeal is denied, you can contact your state Attorney General.</p>
 
-        <h3>2.3 Zahlungsdaten</h3>
-        <p>Kaja nutzt ausschließlich Apple In-App-Abonnements. Wir haben keinen Zugriff auf deine Zahlungsdaten (Kreditkartennummer, Bankverbindung). Diese werden ausschließlich von Apple verarbeitet. Wir erhalten von Apple lediglich die Information, ob ein aktives Abonnement besteht.</p>
+        <h2>10. Security</h2>
+        <p>We use encryption in transit (TLS), restrict access to personal data to the people who need it, and keep production systems separate from development systems. No system is perfectly secure. If a breach affects your information, we will notify you as required by law.</p>
 
-        <h2>3. Warum wir deine Daten verarbeiten</h2>
-        <p>Wir verarbeiten deine Daten auf folgenden Rechtsgrundlagen:</p>
-        <ul>
-            <li><strong>Vertragserfüllung (Art. 6 Abs. 1 lit. b DSGVO):</strong> Quiz-Auswertung, Chat-Verläufe und Mustererkennung sind notwendig, um dir den Coaching-Dienst bereitzustellen.</li>
-            <li><strong>Berechtigtes Interesse (Art. 6 Abs. 1 lit. f DSGVO):</strong> Technische Daten und anonymisierte Nutzungsstatistiken dienen der Verbesserung der App und der Fehlerbehebung.</li>
-            <li><strong>Einwilligung (Art. 6 Abs. 1 lit. a DSGVO):</strong> Pseudonymisierte Chat-Verläufe können von uns zur Qualitätssicherung und Verbesserung von Kajas Antworten ausgewertet werden (siehe Abschnitt 5.3).</li>
-        </ul>
+        <h2>11. Adults only</h2>
+        <p>Kaja is intended for adults 18 and older. We do not knowingly collect information from anyone under 18. If Kaja learns during a conversation that a user is a minor, it ends coaching on that account. If you think a minor has given us information, contact us and we will delete it.</p>
 
-        <h3>Besondere Kategorien personenbezogener Daten</h3>
-        <p>Deine Gespräche mit Kaja können sensible Informationen enthalten — etwa über emotionale Belastungen, Beziehungskonflikte oder persönliche Krisen. Solche Daten können unter die besonderen Kategorien personenbezogener Daten gemäß Art. 9 DSGVO fallen (z.B. Gesundheitsdaten).</p>
-        <p>Die Verarbeitung dieser Daten erfolgt ausschließlich auf Grundlage deiner ausdrücklichen Einwilligung (Art. 9 Abs. 2 lit. a DSGVO), die du beim Onboarding erteilst. Du kannst diese Einwilligung jederzeit mit Wirkung für die Zukunft widerrufen, indem du dein Konto löschst oder uns unter <a href="/cdn-cgi/l/email-protection#dfb7bab3b3b09fb7baa6b4beb5bef1bcb0b2"><span class="__cf_email__" data-cfemail="79111c15151639111c0012181318571a1614">[email&#160;protected]</span></a> kontaktierst.</p>
+        <h2>12. California notes</h2>
+        <p>We do not sell or share personal information as defined by California law, and we do not use sensitive personal information for purposes other than providing the service. Our website and app do not respond to "Do Not Track" signals, because we don't track you across third-party sites in the first place.</p>
 
-        <h3>Automatisierte Entscheidungsfindung und Profiling</h3>
-        <p>Kaja analysiert deine Quiz-Antworten und Chat-Nachrichten, um Kommunikationsmuster zu erkennen und dir darauf abgestimmte Coaching-Impulse zu geben. Dabei kommt eine automatisierte Mustererkennung zum Einsatz (Profiling im Sinne von Art. 22 DSGVO).</p>
-        <p>Diese automatisierte Verarbeitung dient ausschließlich dazu, die Coaching-Inhalte für dich zu personalisieren. Sie hat keine rechtlichen Auswirkungen auf dich und erzeugt keine vergleichbar erheblichen Beeinträchtigungen. Du kannst jederzeit Auskunft über die zugrunde liegende Logik der Mustererkennung verlangen, indem du uns unter <a href="/cdn-cgi/l/email-protection#d8b0bdb4b4b798b0bda1b3b9b2b9f6bbb7b5"><span class="__cf_email__" data-cfemail="f79f929b9b98b79f928e9c969d96d994989a">[email&#160;protected]</span></a> kontaktierst.</p>
+        <h2>13. Website</h2>
+        <p>heykaja.com does not use advertising or analytics cookies. When you visit, our hosting and content delivery providers process technical data such as your IP address to deliver the page securely. The site loads fonts from Google Fonts, so your browser connects to Google's servers.</p>
 
-        <h2>4. KI-Verarbeitung</h2>
+        <h2>14. Changes to this policy</h2>
+        <p>We may update this policy from time to time. If we make material changes, we will tell you in the app before they take effect. The current version is always available at heykaja.com/privacy.html.</p>
 
-        <h3>4.1 Chat-Verarbeitung durch Anthropic</h3>
-        <p>Kaja nutzt ein KI-Sprachmodell der Firma Anthropic PBC (San Francisco, USA), um deine Nachrichten zu verarbeiten und Antworten zu generieren. Das bedeutet:</p>
-        <ul>
-            <li>Deine Chat-Nachrichten werden an die Server von Anthropic in den USA übermittelt.</li>
-            <li>Anthropic verarbeitet deine Daten ausschließlich in unserem Auftrag (als Auftragsverarbeiter) und nutzt sie nicht für eigene Zwecke wie Modelltraining.</li>
-            <li>Es besteht ein Auftragsverarbeitungsvertrag (Data Processing Addendum) mit Anthropic, der die EU-Standardvertragsklauseln (Standard Contractual Clauses) enthält, um ein angemessenes Datenschutzniveau bei der Übermittlung in die USA sicherzustellen.</li>
-            <li>Anthropic speichert deine Daten nicht dauerhaft — die Verarbeitung erfolgt zur Echtzeit-Generierung der Antworten.</li>
-        </ul>
-
-        <h3>4.2 Sprache-zu-Text durch OpenAI</h3>
-        <p>Wenn du die optionale Spracheingabe nutzt, wird deine kurze Audioaufnahme zur Umwandlung in Text an die Firma OpenAI (San Francisco, USA) übermittelt. Das bedeutet:</p>
-        <ul>
-            <li>Die Übermittlung erfolgt nur, wenn du die Spracheingabe aktiv verwendest. Nutzt du die Tastatur, werden keine Audiodaten verarbeitet.</li>
-            <li>OpenAI verarbeitet die Audiodaten ausschließlich in unserem Auftrag (als Auftragsverarbeiter) zur Erstellung des Transkripts und nutzt sie nicht für eigene Zwecke wie Modelltraining.</li>
-            <li>Es besteht ein Auftragsverarbeitungsvertrag mit OpenAI, der die EU-Standardvertragsklauseln (Standard Contractual Clauses) enthält, um ein angemessenes Datenschutzniveau bei der Übermittlung in die USA sicherzustellen.</li>
-            <li>Weder die Audioaufnahme noch das rohe Transkript werden von uns dauerhaft gespeichert. Die Aufnahme wird nach der Umwandlung gelöscht; der Text erscheint in deinem Eingabefeld und wird erst Teil deines Chat-Verlaufs, wenn du ihn absendest.</li>
-        </ul>
-
-        <h2>5. Datenspeicherung</h2>
-
-        <h3>5.1 Wo deine Daten gespeichert werden</h3>
-        <p>Deine Chat-Verläufe und Profildaten werden auf Servern in der EU (Frankfurt, Deutschland) gespeichert. Die KI-Verarbeitung erfolgt auf Servern von Anthropic bzw. — bei Nutzung der Spracheingabe — von OpenAI in den USA (siehe Abschnitt 4).</p>
-
-        <h3>5.2 Wie lange wir deine Daten speichern</h3>
-        <ul>
-            <li><strong>Chat-Verläufe und Profildaten:</strong> Solange dein Konto aktiv ist. Nach Löschung deines Kontos werden alle personenbezogenen Daten innerhalb von 30 Tagen gelöscht.</li>
-            <li><strong>Anonymisierte Nutzungsdaten:</strong> Können auch nach Kontolöschung aufbewahrt werden, da sie keinen Rückschluss auf deine Person zulassen.</li>
-        </ul>
-
-        <h3>5.3 Pseudonymisierte Auswertung zur Produktverbesserung</h3>
-        <p>Um die Qualität von Kajas Antworten zu verbessern, können wir Chat-Verläufe in pseudonymisierter Form auswerten. Dabei werden deine Gespräche von deiner Identität getrennt gespeichert — es werden keine Klarnamen, E-Mail-Adressen, IP-Adressen oder Gerätekennungen in der Auswertungsdatenbank gespeichert. Eine Zuordnung zu deiner Person ist für das Auswertungsteam nicht möglich.</p>
-        <p>Die pseudonymisierte Speicherung umfasst auch Chatauszüge, bei denen automatisierte Sicherheitsmechanismen (Erkennung von akuten Krisen oder Gewalt) ausgelöst werden. Diese Speicherung dient der Qualitätssicherung der Zuverlässigkeit dieser Erkennung.</p>
-        <p>Diese Auswertung erfolgt auf Grundlage deiner Einwilligung, die du beim Onboarding erteilst. Du kannst diese Einwilligung jederzeit widerrufen, indem du uns unter <a href="/cdn-cgi/l/email-protection#4a222f2626250a222f33212b202b64292527"><span class="__cf_email__" data-cfemail="38505d54545778505d4153595259165b5755">[email&#160;protected]</span></a> kontaktierst. Nach Widerruf werden keine weiteren Gespräche pseudonymisiert gespeichert.</p>
-
-        <h2>6. Datenübermittlung in Drittländer</h2>
-        <p>Deine Daten werden in die USA übermittelt (Anthropic-Server für die KI-Verarbeitung sowie — bei Nutzung der Spracheingabe — OpenAI-Server für die Sprache-zu-Text-Umwandlung). Die Übermittlung ist jeweils durch EU-Standardvertragsklauseln (SCCs) abgesichert, die Bestandteil unserer Auftragsverarbeitungsverträge mit Anthropic und OpenAI sind.</p>
-
-        <h2>7. Deine Rechte</h2>
-        <p>Du hast jederzeit das Recht auf:</p>
-        <ul>
-            <li><strong>Auskunft</strong> über deine gespeicherten Daten</li>
-            <li><strong>Berichtigung</strong> unrichtiger Daten</li>
-            <li><strong>Löschung</strong> deiner Daten ("Recht auf Vergessenwerden")</li>
-            <li><strong>Einschränkung</strong> der Verarbeitung</li>
-            <li><strong>Datenübertragbarkeit</strong> — du kannst deine Daten in einem gängigen Format erhalten</li>
-            <li><strong>Widerspruch</strong> gegen die Verarbeitung</li>
-        </ul>
-        <p>Zur Ausübung deiner Rechte schreibe an: <a href="/cdn-cgi/l/email-protection#d9b1bcb5b5b699b1bca0b2b8b3b8f7bab6b4"><span class="__cf_email__" data-cfemail="a3cbc6cfcfcce3cbc6dac8c2c9c28dc0ccce">[email&#160;protected]</span></a></p>
-        <p>Du hast außerdem das Recht, dich bei einer Datenschutzaufsichtsbehörde zu beschweren.</p>
-
-        <h2>8. Datensicherheit</h2>
-        <p>Wir schützen deine Daten durch verschlüsselte Datenübertragung (TLS), Zugriffsbeschränkungen auf personenbezogene Daten und die Trennung von personenbezogenen und anonymisierten Daten in getrennten Datenbanken.</p>
-
-        <h2>9. Minderjährige</h2>
-        <p>Kaja richtet sich an Personen ab 18 Jahren. Wir erheben wissentlich keine Daten von Minderjährigen.</p>
-
-        <h2>10. Änderungen dieser Datenschutzerklärung</h2>
-        <p>Wir können diese Datenschutzerklärung von Zeit zu Zeit aktualisieren. Über wesentliche Änderungen informieren wir dich innerhalb der App. Die aktuelle Version findest du immer unter heykaja.com/privacy.</p>
-
-        <h2>11. Kontakt</h2>
-        <p>Bei Fragen zum Datenschutz erreichst du uns unter: <a href="/cdn-cgi/l/email-protection#3e565b5252517e565b47555f545f105d5153"><span class="__cf_email__" data-cfemail="4f272a2323200f272a36242e252e612c2022">[email&#160;protected]</span></a></p>
+        <h2>15. Contact</h2>
+        <p>Questions about privacy? Email <a href="mailto:hello@heykaja.com">hello@heykaja.com</a> or write to Selected Ventures LLC, 1209 Mountain Road Pl NE, Ste R, Albuquerque, NM 87110, USA.</p>
     </main>
 
     <footer>
         <svg class="footer-mark" viewBox="0 0 28 28" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><circle cx="14" cy="14" r="13.25" fill="none" stroke="#A26452" stroke-width="1.5"></circle><circle cx="14" cy="14" r="9" fill="#A26452" fill-opacity="0.15"></circle></svg>
         <div class="footer-links">
-            <a href="/privacy.html">Datenschutz</a>
-            <a href="/terms.html">Nutzungsbedingungen</a>
-            <a href="/imprint.html">Impressum</a>
+            <a href="/privacy.html">Privacy</a>
+            <a href="/terms.html">Terms</a>
+            <a href="/consumer-health-data.html">Consumer Health Data</a>
+            <a href="/imprint.html">Legal Notice</a>
         </div>
-        <p class="footer-meta">© 2026 Kaja<span class="footer-sep">·</span><a href="/cdn-cgi/l/email-protection#87efe2ebebe8c7efe2feece6ede6a9e4e8ea"><span class="__cf_email__" data-cfemail="640c0108080b240c011d0f050e054a070b09">[email&#160;protected]</span></a></p>
+        <p class="footer-meta">© 2026 Kaja<span class="footer-sep">·</span><a href="mailto:hello@heykaja.com">hello@heykaja.com</a></p>
     </footer>
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</body>
 </html>
