@@ -97,7 +97,7 @@
             <li>Device type, operating system version, app version, language and time zone</li>
             <li>Crash reports and technical logs, so we can find and fix errors</li>
             <li>A push notification token, if you allow notifications</li>
-            <li>Basic usage events (for example, that the AI notice was shown)</li>
+            <li>Usage analytics: which screens and features are used (for example, that the quiz was completed or the AI notice was shown). These contain no names and no conversation content</li>
         </ul>
         <p>We do not use advertising identifiers, we do not track you across other companies' apps or websites, and we do not use third-party advertising or attribution tools in the app.</p>
 
@@ -114,7 +114,7 @@
             <li>To keep you and others safe: automated systems look for signs of acute crisis, violence or that the user is a minor, so Kaja can show crisis resources or end a conversation</li>
             <li>To manage your subscription and restore purchases</li>
             <li>To keep the app working, secure and reliable, and to fix errors</li>
-            <li>To improve the quality and safety of Kaja's replies (see section 6)</li>
+            <li>To improve the quality and safety of Kaja's replies – in the beta, also by reviewing conversations (see section 6)</li>
             <li>To comply with the law and enforce our <a href="/terms.html">Terms of Use</a></li>
         </ul>
         <p>Kaja analyzes your quiz answers and messages automatically to identify communication patterns and tailor its coaching. This personalization is the service itself. It is not used to make decisions about you that have legal or similarly significant effects.</p>
@@ -130,7 +130,7 @@
         <h2>5. Who we share information with</h2>
         <p>We share information only with service providers that help us run Kaja, and only as needed for that purpose:</p>
         <ul>
-            <li><strong>Google (Firebase / Google Cloud):</strong> hosting, database, sign-in, crash reports, push notifications</li>
+            <li><strong>Google (Firebase / Google Cloud):</strong> hosting, database, sign-in, usage analytics (Firebase Analytics), crash reports (Crashlytics), push notifications</li>
             <li><strong>Anthropic:</strong> generating Kaja's replies</li>
             <li><strong>OpenAI:</strong> voice transcription, only if you use voice input</li>
             <li><strong>RevenueCat:</strong> subscription status</li>
@@ -138,18 +138,20 @@
         </ul>
         <p>We may also disclose information if the law requires it, to protect someone's safety in an emergency, or as part of a merger, acquisition or sale of assets. If that happens, this policy will continue to apply to your information.</p>
 
-        <h2>6. Improving quality and safety</h2>
-        <p>To improve Kaja and to check that its safety systems work reliably, a small team may review excerpts of conversations, including excerpts where crisis or violence detection was triggered. We remove direct identifiers such as your name before review where we can. We do not use real conversations for marketing, and we do not share them with third parties for their own purposes.</p>
-        <p>If you don't want your conversations used this way, email <a href="mailto:hello@heykaja.com">hello@heykaja.com</a>. Conversations will then be used only to provide your coaching.</p>
+        <h2>6. Review of conversations</h2>
+        <p><strong>Released app:</strong> nobody at Kaja reads your conversations. We have no tool for reviewing conversations in the released app. If we ever want to introduce one, we will ask for your consent first.</p>
+        <p><strong>Beta (TestFlight):</strong> the beta runs on a separate test system. To improve Kaja's quality and safety, a small team may read conversations from the beta, including conversations where crisis or violence detection was triggered. We do not use beta conversations for marketing and do not share them with third parties for their own purposes. Beta accounts and conversations are not carried over to the released app – you start fresh there. If you don't want your beta conversations reviewed, email <a href="mailto:hello@heykaja.com">hello@heykaja.com</a> or delete your beta account in the app.</p>
 
         <h2>7. Where your data is stored</h2>
-        <p>Your data is stored on Google Cloud (Firebase) servers. Some of these are located in the European Union, and AI processing takes place in the United States. We protect your data in transit with encryption, wherever it is processed.</p>
+        <p>Your account, quiz results and conversations are stored in the European Union, on Google Cloud (Firebase) servers. The following is processed in the United States: requests to the AI services (Anthropic, and OpenAI for voice input), usage analytics (Firebase Analytics) and crash reports (Crashlytics). Data is encrypted in transit and at rest.</p>
 
         <h2>8. How long we keep your data</h2>
         <ul>
             <li><strong>Profile, quiz results and conversations:</strong> for as long as your account exists. You can delete a single conversation or your whole account in the app.</li>
-            <li><strong>After you delete your account:</strong> we delete your account, conversations, quiz results and subscription and notification data from our live systems right away. Remaining copies in backups and technical logs are removed within 30 days.</li>
-            <li><strong>De-identified or aggregated data</strong> that can no longer be linked to you may be kept longer.</li>
+            <li><strong>After you delete your account:</strong> your account, conversations, quiz results and subscription and notification data are permanently deleted within one hour. We do not keep backups of this data.</li>
+            <li><strong>Technical logs:</strong> kept for 30 days. They do not contain conversation content.</li>
+            <li><strong>Usage analytics (Firebase Analytics):</strong> kept for 2 months. Aggregated reports that can no longer be linked to you may be kept longer.</li>
+            <li><strong>Crash reports (Crashlytics):</strong> kept for about 90 days. They contain no names and no conversation content.</li>
         </ul>
 
         <h2>9. Your choices and rights</h2>
@@ -163,7 +165,7 @@
         <p>Depending on where you live, you may have additional rights under state law, such as the right to know, access, correct or delete your personal information, to get a portable copy, and to opt out of sale, targeted advertising or profiling. We honor these requests for all users, whether or not a state law applies. To make a request, email <a href="mailto:hello@heykaja.com">hello@heykaja.com</a>. We may need to verify that the account is yours. We answer within 45 days, and we won't treat you differently for using your rights. If we decline your request, you can appeal by replying to our answer. If your appeal is denied, you can contact your state Attorney General.</p>
 
         <h2>10. Security</h2>
-        <p>We use encryption in transit (TLS), restrict access to personal data to the people who need it, and keep production systems separate from development systems. No system is perfectly secure. If a breach affects your information, we will notify you as required by law.</p>
+        <p>We use encryption in transit (TLS), restrict access to personal data to the people who need it, and keep the released app's systems separate from our test systems. No system is perfectly secure. If a breach affects your information, we will notify you as required by law.</p>
 
         <h2>11. Adults only</h2>
         <p>Kaja is intended for adults 18 and older. We do not knowingly collect information from anyone under 18. If Kaja learns during a conversation that a user is a minor, it ends coaching on that account. If you think a minor has given us information, contact us and we will delete it.</p>
